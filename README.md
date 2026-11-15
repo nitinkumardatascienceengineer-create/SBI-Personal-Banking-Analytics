@@ -1,68 +1,57 @@
-# Banking Analytics Dashboard
+SBI Banking Analytics Dashboard
 
-## Overview
-An interactive Power BI dashboard built using PostgreSQL and Excel to analyze customer portfolios, account balances, and loan performance for a simulated Indian banking dataset.
+Project Overview
 
-## Tools Used
-- Power BI
-- PostgreSQL
-- Excel
-- SQL
-- DAX
+An interactive banking analytics dashboard developed using Microsoft Power BI to explore customer demographics, account activity, geographical distribution, and branch-wise financial performance using SBI-themed banking data.
 
-## Dataset
-- 200 Customers
-- 300 Accounts
-- 5000 Transactions
-- Loans
-- Branches
-- Employees
-- Cards
-- UPI
-- Internet Banking
+Dashboard KPIs
 
-## Dashboard 1 – Customer & Balance Overview
-### KPIs
-- Active Customers
-- Total Balance
-- Average Balance
-- Dormant Accounts
+Total Balance: 104M
 
-### Visuals
-- Customer Distribution by Occupation
-- Customer Distribution by State
-- Branch-wise Balance Treemap
-- Balance Trend by Year
+Total Active Customers: 132
 
-### Key Insights
-- Maharashtra has the highest customer concentration.
-- Teachers form the largest customer segment.
-- Surat and Gurugram branches hold the highest balances.
-- Dormant accounts represent around 22% of the portfolio.
+Total Branches: 50
 
-## Dashboard 2 – Loan Portfolio Analysis
-### KPIs
-- Total Loan Amount
-- Outstanding Amount
-- Active Loans
-- Defaulted Loans
+Total Customers: 200
 
-### Visuals
-- Loan Status Distribution
-- Loan Type Distribution
-- Outstanding Amount by Loan Type
-- Loan Revenue Trend
+Total Dormant Accounts: 25
 
-### Key Insights
-- Home loans account for the largest share of the portfolio.
-- Personal, Education, and Gold loans contribute moderate exposure.
-- Revenue fluctuates across years.
-- Loan portfolio composition highlights areas for risk monitoring.
+Key Dashboard Features
 
-## Database Schema
+Customer Analysis: Analyze customers based on occupation and gender.
 
-The dashboard is built on a normalized PostgreSQL database consisting of multiple banking entities such as customers, accounts, transactions, loans, branches, cards, and digital banking services.
+Geographical Analysis: Explore customer distribution across different states and cities.
 
-### ER Diagram
+Balance Analysis: Track total balance trends based on customer joining year.
 
-![ER Diagram](images/er_diagram.png)
+Branch Performance: Compare total balances across different branches.
+
+Interactive Filters: Filter dashboard data by city and gender.
+
+Tools & Technologies
+
+Microsoft Power BI
+
+Power Query
+
+DAX
+
+Data Cleaning and Transformation
+
+Data Visualization
+
+Dashboard Preview
+
+
+
+Key Insights
+
+Maharashtra represents the largest customer share in the displayed state distribution.
+
+Teachers represent the largest occupational group in the displayed customer breakdown.
+
+The dashboard provides geographical and branch-level balance comparisons.
+
+Disclaimer
+
+This is a personal portfolio project. Any banking data included in the repository should be anonymized and must not contain real customer or account information.
